@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-    <BrowserRouter>
+      <BrowserRouter>
     <NavBar/>
         <Routes>
             <Route path='/'
@@ -37,14 +37,7 @@ function App() {
               element = {<RecommendationList/>}
             />
         </Routes>
-
-    <ul className="movie-list">
-        {movieCards.map((card, index) => (
-          <li key={index}>{card}</li>
-        ))}
-      </ul>
-     ;
-    </BrowserRouter>
+        </BrowserRouter>
     </div>
   );
 }

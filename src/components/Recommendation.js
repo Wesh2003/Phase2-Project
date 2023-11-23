@@ -1,58 +1,52 @@
-import { useEffect } from "react"
-
+import React from 'react';
+import { useState } from 'react'
 
 
 function Recommendation(){
 
 
-    const [movieName, setMoviewName] = useState("")
+    const [movieName, setMovieName] = useState("")
     const [description, setDescription] = useState("")
-    const [recommendListData, setRecommendListData] = useState([])
+    const [moviePosterImage, setMoviePosterImage] = useState("")
+    
 
     function handlingSubmittion(event){
         event.preventDefault()
         const recomData = {
             name: movieName,
-            description: description
+            description: description,
+            url:moviePosterImage
 
         }
 
-        fetch ("http://.......................", {
+        fetch ("http://localhost:3000/movies", {
             method: "POST",
             headers: {
                 "Content-Type" : "application/json", 
             },
             body: JSON.stringify(recomData),
         })
-            .then (res => res.json)
-            .then((movieData) => {
+            .then (res => res.json())
+            .then(movieData => {
                 console.log(movieData);
              })
-            .catch((err) => {
+            .catch(err => {
                 console.log(err.message);
             });
 
     }
 
-    useEffect(() => {
-        fetch('http:....recommenList')
-          .then((r) => r.json())
-          .then((data) => setRecommendListData(data))
-    
-      }, [])
 
     return (
-        <>
+        
         <form className ="RecommendationForm" onSubmit = {handlingSubmittion}>
-            <input type = "text" name = "name" value = {movieName} onChange = {(event) => setMoviewName(event.target.value)}/>
-            <input type = "text" name = "description" value = {description} onChange = {(event) => setDescription(event.target.value)}/>
+            <input type = "text" name = "image" value = {moviePosterImage} placeholder = "Poster Image URL" onChange = {(event) => setMoviePosterImage(event.target.value)}/>
+            <input type = "text" name = "name" value = {movieName} placeholder = "Movie Name" onChange = {(event) => setMovieName(event.target.value)}/>
+            <input type = "text" name = "description" value = {description} placeholder ="Movie Description" onChange = {(event) => setDescription(event.target.value)}/>
+            <button type ="submit">Submit</button>
         </form>
-        <div>
-            <h2>{recommendListData.name}</h2>
-            <p>{recommendListData.description}</p>
-        </div>
-        </>
-    )
+        
+    );
 }
 
 export default Recommendation;
