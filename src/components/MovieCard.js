@@ -11,7 +11,7 @@ function MovieCard({ showId }) {
           title: data.name,
           description: data.summary,
           image: data.image?.medium,
-          // Adjust properties based on the API response structure
+          
         });
       })
       .catch(error => {
@@ -20,7 +20,7 @@ function MovieCard({ showId }) {
   }, [showId]);
 
   const addToLibrary = () => {
-    // Add functionality to add this movie to the library
+    
   };
 
   const { title, description, image } = movieData;

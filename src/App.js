@@ -26,9 +26,7 @@ function App() {
           <li key={index}>{card}</li>
         ))}
       </ul>
-
-
-    ;
+     ;
   
     </div>
   );
