@@ -5,9 +5,9 @@ import React, { useState } from 'react';
 function Library (){
   const [library, setLibrary] = useState([]);
 
-  const addToLibrary = (movie) => {
-    setLibrary([...library, movie]);
-  };
+  const movieDataa = localStorage.getItem('movieCardData')
+  const movie = JSON.parse(movieDataa)
+  setLibrary([...library, movie]);
 
   const removeFromLibrary = (movieTitle) => {
     const updatedLibrary = library.filter((movie) => movie.title !== movieTitle);
