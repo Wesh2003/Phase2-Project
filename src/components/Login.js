@@ -9,7 +9,7 @@ function Login() {
     // Function to handle form submission
     const handleLogin = () => {
         // In a real-world scenario, you would handle the login logic here
-        
+        e.preventDefault()
         console.log('Username:', username);
         console.log('Password:', password);
     };
@@ -17,7 +17,7 @@ function Login() {
     return (
         <div>
             <h2>Login</h2>
-            <form>
+            <form onSubmit = {handleLogin}>
                 <label htmlFor="username">Username:</label>
                 <input
                     type="text"
@@ -38,9 +38,9 @@ function Login() {
                     required
                 />
 
-                <button type="button" onClick={handleLogin}>
+                <button type="button">
                     Login
-                </button>
+                </button type = "submit">
             </form>
         </div>
     );
