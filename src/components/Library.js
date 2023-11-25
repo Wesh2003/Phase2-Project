@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 //import MovieCard from './MovieCard'; // Assuming you have a MovieCard component
 
@@ -32,7 +31,8 @@ function Library (){
         </div>
       )}
     </div>
-  );
-};
+    );
+    };
+
 
 export default Library;

@@ -5,6 +5,7 @@ import Library from './components/Library';
 import Login from './components/Login';
 import RecommendationList from './components/RecommendationList';
 import React from 'react';
+import MovieCard from './components/MovieCard'
 import './App.css';
 
 
@@ -28,7 +29,7 @@ function App() {
               element = {<Home/>}
             />
             <Route path='/library'
-              element = {<Library/>}
+              element = {<Library movies={data}/>}
             />
             <Route path='/login' 
               element = {<Login/>}

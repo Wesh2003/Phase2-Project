@@ -20,7 +20,7 @@ function MovieCard({ showId }) {
   }, [showId]);
 
   const addToLibrary = () => {
-    
+    localStorage.setItem('movieCardData', JSON.stringify(movieData))
   };
 
   const { title, description, image } = movieData;
