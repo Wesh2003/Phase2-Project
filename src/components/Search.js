@@ -7,7 +7,7 @@ function Search() {
 useEffect(() => {
  fetch('https://api.tvmaze.com/schedule')
    .then((r) => r.json())
-    .then((data) => console.log(data))
+    .then((data) => setMovies(data))
 
 
 }, []);
@@ -29,10 +29,6 @@ console.log('Filtered Movies:', filteredMovies);
         value={searchMovie}
         onChange={(e) => setSearchMovie(e.target.value)}
       />
-
-
-
-
     </div>
   )
 }
