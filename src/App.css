@@ -2,37 +2,95 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #3A3838;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.RecommendationForm{
+  background-color: black;
+  height: 500px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  padding-left: 80px;
+  margin-top: 0px;
+
+}
+.RecomHeader{
+  background-color: black;
   color: white;
+  width: 100%;
+  font-size: 40px;
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 80px;
+  margin-bottom: 0px;
+}
+.RecommendationForm input[type=text]{
+  background-color: #D9D9D9;
+  width: 90%;
+  height: 40px;
+  border-style: dotted;
 }
 
-.App-link {
-  color: #61dafb;
+.RecommendationForm button{
+  background-color: #5E81FF;
+  width: 120px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  color: white;
+  font-size: 17px;
+}
+
+.movie-card {
+  width: 500px;
+  margin-top: 60px;
+}
+.movie-title {
+  color: white;
+  font-size: 30px;
+  padding-left: 40px;
+}
+.movie-image{
+  padding-left: 40px;
+}
+.movie-description{
+  padding-left: 40px;
+  color: white;
+
+}
+.add-button{
+  margin-left: 100px;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  font-style:oblique;
+  border-width: 3px;
+
+}
+.HomeHeader {
+  padding-left: 40px;
+  color: white;
+  font-size: 50px;
+}
+.NavBar {
+  width: 100%;
+  height: 120px;
+  font-size: 30px;
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.NavBarHead{
+  color: white;
 }

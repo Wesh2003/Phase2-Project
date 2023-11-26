@@ -40,8 +40,11 @@ function Recommendation(){
     return (
         
         <form className ="RecommendationForm" onSubmit = {handlingSubmittion}>
+            <label>Poster Image URL: </label>
             <input type = "text" name = "image" value = {moviePosterImage} placeholder = "Poster Image URL" onChange = {(event) => setMoviePosterImage(event.target.value)}/>
+            <label>Movie Name: </label>
             <input type = "text" name = "name" value = {movieName} placeholder = "Movie Name" onChange = {(event) => setMovieName(event.target.value)}/>
+            <label>Movie Description: </label>
             <input type = "text" name = "description" value = {description} placeholder ="Movie Description" onChange = {(event) => setDescription(event.target.value)}/>
             <button type ="submit">Submit</button>
         </form>

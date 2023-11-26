@@ -12,7 +12,7 @@ function Home() {
 
   return (
   <div>
-    <h1>Movies Available on This Site</h1>
+    <h1 className = "HomeHeader">Movies Available on This Site</h1>
     <ul className="movie-list">
       {movieCards.map((card, index) => (
         <li key={index}>{card}</li>
@@ -20,7 +20,7 @@ function Home() {
     </ul>
     
     <br></br>
-    <h1>Reccomend Your Own movies that you want added on the site</h1>
+    <h1 className = "RecomHeader">Reccomend Your Own movies that you want added on the site</h1>
     <Recommendation/>
 
 
