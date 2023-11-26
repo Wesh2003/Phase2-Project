@@ -138,11 +138,25 @@ label {
   font-size: 25px;
 }
 .RecomPageHead{
-  font-size: 40px;
+  font-size: 52px;
   color: white;
-  padding-left: 100px;
+  padding-left: 80px;
+}
+
+.RecomCard{
+  margin-left: 60px;
+  margin-top: 60px;
 }
 .RecoMoviePos{
-  padding-left: 40px;
-  
+  padding-left: 20px;
+
+}
+.RecoMovieName{
+  padding-left: 20px;
+  color: white;
+}
+
+.RecoMovieDescr{
+  padding-left: 20px;
+  color: white;
 }
