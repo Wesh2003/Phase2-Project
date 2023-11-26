@@ -94,3 +94,45 @@ label {
 .NavBarHead{
   color: white;
 }
+
+.LoginForm{
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  padding-left: 80px;
+  margin-top: 0px;
+}
+.LoginForm input[type=text]{
+  background-color: #D9D9D9;
+  width: 80%;
+  height: 40px;
+  border-style: dotted;
+}
+.LoginForm input[type=password]{
+  background-color: #D9D9D9;
+  width: 80%;
+  height: 40px;
+  border-style: dotted;
+}
+
+.LoginForm button{
+  background-color: #5E81FF;
+  width: 170px;
+  height: 45px;
+  font-size: 30px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.Loginheader {
+  font-size: 30px;
+  color: white;
+}
+
+.LoginForm label {
+  font-size: 25px;
+}
