@@ -128,11 +128,21 @@ label {
   margin-left: 100px;
   margin-top: 40px;
 }
-.Loginheader {
-  font-size: 30px;
+.LoginHeader {
+  font-size: 40px;
   color: white;
+  padding-left: 100px;
 }
 
 .LoginForm label {
   font-size: 25px;
+}
+.RecomPageHead{
+  font-size: 40px;
+  color: white;
+  padding-left: 100px;
+}
+.RecoMoviePos{
+  padding-left: 40px;
+  
 }

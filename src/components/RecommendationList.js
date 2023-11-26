@@ -14,16 +14,16 @@ function RecommendationList() {
 
       const recommendedMovies = recommendListData.map( movie => 
         <li key = {movie.id}>
-            <img src = {movie.url} alt='Missing Poster'/>
-            <h1>{movie.name}</h1>
-            <p>{movie.description}</p>
+            <img className = "RecoMoviePos" src = {movie.url} alt='Missing Poster'/>
+            <h1 className = "RecoMovieName">{movie.name}</h1>
+            <p className = "RecoMovieDescr">{movie.description}</p>
 
         </li>
         )
 
     return (
         <div>
-            <h1>Recommended Movies To Add to the Site</h1>
+            <h1 className = "RecomPageHead">Recommended Movies To Add to the Site</h1>
             {recommendedMovies}
         </div>
     )
