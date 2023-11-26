@@ -7,11 +7,32 @@ function Login() {
     const [password, setPassword] = useState('');
 
     // Function to handle form submission
-    const handleLogin = () => {
+    const handleLogin = (e) => {
         // In a real-world scenario, you would handle the login logic here
         e.preventDefault()
         console.log('Username:', username);
         console.log('Password:', password);
+
+        const loginDataa = {
+            name: username,
+            password: password,
+
+        }
+
+        fetch ("http://localhost:3000/loginData", {
+            method: "POST",
+            headers: {
+                "Content-Type" : "application/json", 
+            },
+            body: JSON.stringify(loginDataa),
+        })
+            .then (res => res.json())
+            .then(loginDataaa => {
+                console.log(loginDataaa);
+             })
+            .catch(err => {
+                console.log(err.message);
+            });
     };
 
     return (

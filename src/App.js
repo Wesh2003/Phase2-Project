@@ -5,17 +5,10 @@ import Library from './components/Library';
 import Login from './components/Login';
 import RecommendationList from './components/RecommendationList';
 import React from 'react';
-import MovieCard from './components/MovieCard'
 import './App.css';
 
 
 function App() {
-  const numberOfMovies = 14; // Amount of MovieCard components
-  
-  const movieCards = [];
-  for (let i = 1; i <= numberOfMovies; i++) {
-    movieCards.push(<MovieCard key={i} showId={i} />);
-  }
 
   return (
     <div>
@@ -29,7 +22,7 @@ function App() {
               element = {<Home/>}
             />
             <Route path='/library'
-              element = {<Library movies={data}/>}
+              element = {<Library/>}
             />
             <Route path='/login' 
               element = {<Login/>}

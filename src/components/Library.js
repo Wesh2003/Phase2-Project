@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import MovieCard from './MovieCard'; // Assuming you have a MovieCard component
+import MovieCard from './MovieCard'; // Assuming you have a MovieCard component
 
 function Library (){
   const [library, setLibrary] = useState([]);
