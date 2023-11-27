@@ -1,35 +1,5 @@
 {
   "movies": [
-    {
-      "name": "Rick and Morty",
-      "description": "a granpa who goes on drunk adventures with his grandson",
-      "url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage5.uhdpaper.com%2Fwallpaper-4k%2Frick-and-morty-uhdpaper.com-4K-5.147.jpg&tbnid=biCmxOnC1Yr1rM&vet=12ahUKEwjwsOLQ8dmCAxVDUKQEHfXvBY0QMygLegUIARCLAQ..i&imgrefurl=https%3A%2F%2Fwww.uhdpaper.com%2F2019%2F08%2Frick-and-morty-8k-5147.html&docid=G00k81kpkVv2zM&w=3840&h=2160&q=rick%20and%20Morty%20wallpaper&ved=2ahUKEwjwsOLQ8dmCAxVDUKQEHfXvBY0QMygLegUIARCLAQ",
-      "id": 1
-    },
-    {
-      "name": "Rick and Morty",
-      "description": "a granpa who goes on drunk adventures with his grandson",
-      "url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage5.uhdpaper.com%2Fwallpaper-4k%2Frick-and-morty-uhdpaper.com-4K-5.147.jpg&tbnid=biCmxOnC1Yr1rM&vet=12ahUKEwjwsOLQ8dmCAxVDUKQEHfXvBY0QMygLegUIARCLAQ..i&imgrefurl=https%3A%2F%2Fwww.uhdpaper.com%2F2019%2F08%2Frick-and-morty-8k-5147.html&docid=G00k81kpkVv2zM&w=3840&h=2160&q=rick%20and%20Morty%20wallpaper&ved=2ahUKEwjwsOLQ8dmCAxVDUKQEHfXvBY0QMygLegUIARCLAQ",
-      "id": 2
-    },
-    {
-      "name": "Rick and Morty",
-      "description": "a granpa who goes on drunk adventures with his grandson",
-      "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBESEhgSEhEYGBISEhISEBIRGRIYGhoYGBgZHBwcGBgcIS4lHB8uIxgYJjgmKy8xNTY1HSQ7QDs0PzA0NTEBDAwMEA8QHhISHzQrISc0NDY0MTE0MTQ0NDU2Njc6PTQ0ND00NDQ0NDQxNjQ0NDQ0NDQ0NDQ0NDQ0NDE0NjQ0NP/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQYCBAUDB//EAEAQAAIBAgQDBQUECAUFAQAAAAECAAMRBBIhMQVBUQYTImFxFDKBkaEjQlJicnOCsbLB0eEHM0PC8BUkU5LSY//EABkBAQADAQEAAAAAAAAAAAAAAAABAgQDBf/EACoRAAICAQMCBQMFAAAAAAAAAAABAhEDEiExQVEEImFxkTJCgROhwdHw/9oADAMBAAIRAxEAPwD5tERAEREAREQBERAEREAREQBERAEREARJiAREmIBEmIgCIkwCIkxIIIiTEAREm0AiJNpNoBjEytFoBjEytItAIi0m0QDCIiSSIiIAiIgCIiAIiIAiIgCIiAJMRAEREAREmQQIiTAIiTFoAi0m0m0iyLMbSbSYtFki0Wk2k2iyLMbRaZ2k2kWRZhaZKkyVZt4eheVcqIcjWFEyGpWl+7P9lkemamIDKpAyKCFuCAc5PTUW+M5/aTs97O2ZLmk/uE6kG18p/eDzEzrxMXLScVnTlRS2WLTar0rTxtNKlZ3TNaIidC4iIgCIiAIiIAiIgCIiAJMiTAETb4Zg+/qrSDBS4fKxBIuFZhe2ttNxf0O02cHwKu+J9mKFXXWoTqFTTxX2INxa29x6xRDaRy4nZ7V8PTD4nu6a5U7qkyjf7uUk9SWViT1nGEgJ2rJiIgExEQBMrRFoAkwBJtKkWRaSBMgJIEiyLIAkgTICSBIsrZjaTlmYEAStkWTTTWWDgWC7yqiEaM6hv0d2+gM42HTWX",
-      "id": 3
-    },
-    {
-      "name": "Rick and Morty",
-      "description": "a granpa who goes on drunk adventures with his grandson",
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLabbdKCmnJgPwrEtDrvl6vCwywwIf_4eZIkDZQPj4MA&s",
-      "id": 4
-    }
-  ],
-  "loginData": [
-    {
-      "name": "tmuriithi",
-      "password": "02w202022",
-      "id": 1
-    }
+ 
   ]
 }
